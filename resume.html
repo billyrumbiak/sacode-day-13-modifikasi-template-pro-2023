@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>Resume</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="favicon.png" />
     <!-- Custom Google font-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,6 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="d-flex flex-column h-100 bg-light">
@@ -35,8 +39,8 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="projek.html">Projek</a></li>
-                        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                        <li class="nav-item"><a class="nav-link" href="project.html">Project</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,14 +48,15 @@
         <!-- Page Content-->
         <div class="container px-5 my-5">
             <div class="text-center mb-5">
-                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume</span></h1>
+                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Resume <i
+                            class="fa-regular fa-file"></i></span></h1>
             </div>
             <div class="row gx-5 justify-content-center">
                 <div class="col-lg-11 col-xl-9 col-xxl-8">
-                    <!-- Pengalaman Section-->
+                    <!-- Project Section-->
                     <section>
                         <div class="d-flex align-items-center justify-content-between mb-4">
-                            <h2 class="text-primary fw-bolder mb-0">Pengalaman</h2>
+                            <h2 class="text-primary fw-bolder mb-0">Project</h2>
                             <!-- Download resume button-->
                             <!-- Note: Set the link href target to a PDF file within your project-->
                             <a class="btn btn-primary px-4 py-3" href="#!">
@@ -59,12 +64,13 @@
                                 Download Resume
                             </a>
                         </div>
-                        <!-- Pengalaman Card 1-->
+                        <!-- Project Card 1-->
                         <div class="card shadow border-0 rounded-4 mb-5">
                             <div class="card-body p-5">
                                 <div class="row align-items-center gx-5">
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
+                                            <img src="assets/sacode.png" class="card-img" alt="sacode">
                                             <div class="text-primary fw-bolder mb-2">2021 - Present</div>
                                             <div class="small fw-bolder">Web Developer</div>
                                             <div class="small text-muted">SaCode</div>
@@ -80,37 +86,17 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Pengalaman Card 2
-                        <div class="card shadow border-0 rounded-4 mb-5">
-                            <div class="card-body p-5">
-                                <div class="row align-items-center gx-5">
-                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                        <div class="bg-light p-4 rounded-4">
-                                            <div class="text-primary fw-bolder mb-2">2017 - 2019</div>
-                                            <div class="small fw-bolder">Lulus Kuliah</div>
-                                            <div class="small text-muted">Jurusan Perencaan Wilayah dan Kota</div>
-                                            <div class="small text-muted">Universitas Sains dan Teknologi Jayapura</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
-                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
-                                            fuga.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
                     </section>
                     <!-- Pendidikan Section-->
                     <section>
-                        <h2 class="text-secondary fw-bolder mb-4">Pendidikan</h2>
-                        <!-- Pendidikan Card 1-->
+                        <h2 class="text-secondary fw-bolder mb-4">Collage</h2>
+                        <!-- Collage Card 1-->
                         <div class="card shadow border-0 rounded-4 mb-5">
                             <div class="card-body p-5">
                                 <div class="row align-items-center gx-5">
                                     <div class="col text-center text-lg-start mb-4 mb-lg-0">
                                         <div class="bg-light p-4 rounded-4">
+                                            <img src="assets/ustj.png" class="card-img shadow-lg" alt="ustj">
                                             <div class="text-secondary fw-bolder mb-2">2013 - 2019</div>
                                             <div class="mb-2">
                                                 <div class="small fw-bolder">Universitas Sains dan Teknologi Jayapura
@@ -120,32 +106,6 @@
                                             <div class="fst-italic">
                                                 <div class="small text-muted">Master's</div>
                                                 <div class="small text-muted">Web Development</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-                                            laudantium, voluptatem quis repellendus eaque sit animi illo ipsam amet
-                                            officiis corporis sed aliquam non voluptate corrupti excepturi maxime porro
-                                            fuga.</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Pendidikan Card 2-->
-                        <div class="card shadow border-0 rounded-4 mb-5">
-                            <div class="card-body p-5">
-                                <div class="row align-items-center gx-5">
-                                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
-                                        <div class="bg-light p-4 rounded-4">
-                                            <div class="text-secondary fw-bolder mb-2">SMA Negeri 1 Jayapura</div>
-                                            <div class="mb-2">
-                                                <div class="small fw-bolder">Kota Jayapura</div>
-                                                <div class="small text-muted">Papua</div>
-                                            </div>
-                                            <div class="fst-italic">
-                                                <div class="small text-muted">Undergraduate</div>
-                                                <div class="small text-muted">Computer Science</div>
                                             </div>
                                         </div>
                                     </div>
@@ -259,11 +219,11 @@
                     <div class="small m-0">Copyright &copy; Powerd by SaCode 2023</div>
                 </div>
                 <div class="col-auto">
-                    <a class="small" href="#!">Pribadi</a>
+                    <a class="small" href="#!">Private</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Kondisi</a>
+                    <a class="small" href="#!">Term</a>
                     <span class="mx-1">&middot;</span>
-                    <a class="small" href="#!">Kontak</a>
+                    <a class="small" href="#!">Contact</a>
                 </div>
             </div>
         </div>
